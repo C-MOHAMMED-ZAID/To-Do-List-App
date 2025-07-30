@@ -1,54 +1,41 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive Todo List application designed to help you manage your tasks efficiently. Built with React and deployed on Vercel, this app offers a seamless user experience with features like task addition, editing, completion, and deletion.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Task Management**: Add, edit, complete, and delete tasks with ease.
+- **Interactive UI**: Smooth animations and responsive design ensure a delightful user experience.
+- **Public Deployment**: Deployed on Vercel, accessible at [https://to-do-list-eight-mocha.vercel.app/](https://to-do-list-eight-mocha.vercel.app/).
 
-## Expanding the ESLint configuration
+## Technology Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Frontend**: React
+- **Deployment**: Vercel
+- **Build Tool**: Vite
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+To run this project locally, follow these steps:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Start the application with `npm run dev`.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Deployment
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-=======
-# To-Do-List-App
->>>>>>> 180a681b83cd3149e316ec922743e8c21875e114
+This application is deployed publicly on Vercel. You can view it live at [https://to-do-list-eight-mocha.vercel.app/](https://to-do-list-eight-mocha.vercel.app/).
+
+## Future Enhancements
+
+- **Due Dates**: Implement due date reminders.
+- **Priority Levels**: Add task priority levels.
+- **Collaboration**: Integrate multi-user support.
+
+## Contributing
+
+Contributions are welcome! Feel free to fork this repository and submit pull requests.
+
+## License
+
+This project is licensed under the MIT License.
