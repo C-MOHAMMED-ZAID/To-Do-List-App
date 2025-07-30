@@ -6,7 +6,7 @@ A modern, interactive Todo List application designed to help you manage your tas
 
 - **Task Management**: Add, edit, complete, and delete tasks with ease.
 - **Interactive UI**: Smooth animations and responsive design ensure a delightful user experience.
-- **Public Deployment**: Deployed on Vercel, accessible at [https://to-do-list-eight-mocha.vercel.app/](https://to-do-list-eight-mocha.vercel.app/).
+- **Public Deployment**: Deployed on Vercel, accessible at https://to-do-58200chxn-zaid-working-project.vercel.app/
 
 ## Technology Stack
 
